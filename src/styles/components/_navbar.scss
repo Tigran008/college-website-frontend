@@ -1,0 +1,73 @@
+nav {
+    background-color: #083170;
+    margin-top: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 55px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    
+    @media (max-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .burger {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: none;
+        font-size: 25px;
+
+        @media (max-width: 1024px) {
+            display: block;
+        }
+    }
+
+    .mobile-menu {
+        background-color: #002244;
+        overflow: hidden;
+        position: absolute; // Or fixed if needed
+        top: 99%;
+        left: 0;
+        z-index: 99999;
+        width: 100%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        ul {
+            padding: 1rem;
+            text-align: center;
+
+            li {
+                list-style: none;
+                padding: 0.75rem 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    .ant-menu {
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        &-item {
+            color: white !important;
+            font-size: 16px;
+        }
+
+        @media (max-width: 1024px) {
+            display: none; // Hide menu on mobile
+        }
+    }
+}

@@ -1,0 +1,40 @@
+header {
+    color: white !important;
+    background-color: #082B61;
+    padding: 20px 50px 0px 50px;
+    width: 100%;
+
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .languages, .socialMediaIcons {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .languages {
+            width: 200px;
+            font-size: 18px;
+        }
+
+        .socialMediaIcons {
+            width: 200px;
+            font-size: 30px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 90px;
+        }
+
+        @media (max-width: 768px) {
+            justify-content: center;
+
+            .languages, .socialMediaIcons {
+                display: none;
+            }
+        }
+    }
+}

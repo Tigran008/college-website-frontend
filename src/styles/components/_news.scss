@@ -1,0 +1,39 @@
+.home-page-news {
+    width: 100%;
+    min-height: 300px;
+    height: 450px;
+    background-image: url('/src/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative; /* Needed for absolute positioning */
+    overflow: visible; /* Ensure the title + carousel are visible */
+
+    .news-title-carousel-wrapper {
+        position: relative;
+        top: -190px; /* Moves it outside of .home-page-news */
+        width: 100%;
+      }
+
+    h2 {
+        font-size: 40px;
+        text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    &-carousel {
+        padding: 30px;
+        width: 100%;
+
+        &-item {
+            width: 100%;
+            display: flex !important;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+    }
+
+    &-container {
+        width: 100%;
+    }
+}

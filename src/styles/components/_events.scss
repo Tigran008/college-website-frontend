@@ -1,0 +1,102 @@
+$CardWidthHeight: 400px;
+
+.home-page-events {
+    width: 100%;
+    height: 1200px;
+    background-image: url('/src/images/Background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+
+    &-latest {
+        width: $CardWidthHeight;
+        height: $CardWidthHeight;
+        background-color: #1e3a8a;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-bottom: 250px;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h2 {
+            font-size: 2.2em;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: white;
+            cursor: pointer; 
+        }
+
+        button {
+            color: #1e3a8a;
+            background-color: #F5F5F5;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .active {
+            color: rgb(120, 173, 247);
+            font-weight: bolder;
+            text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); 
+        }
+    }
+
+    &-item {
+        margin-top: 250px;
+        margin-right: 150px;
+
+        &-card {
+            width: $CardWidthHeight;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+
+        &-latest {
+            margin-bottom: 10px;
+        }
+
+        &-item {
+            margin-right: 0px;
+            margin-top: 50px;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        flex-direction: column;
+
+
+        &-latest {
+            margin-bottom: 10px;
+            width: $CardWidthHeight - 100;
+            height: $CardWidthHeight - 50;
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        &-item {
+            margin-right: 0px;
+            margin-top: 50px;
+
+            &-card {
+                width: $CardWidthHeight - 100;
+            }
+        }
+      }
+}

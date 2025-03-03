@@ -1,0 +1,11 @@
+@use './base/reset';
+@use './layout/header';
+@use './layout/footer';
+@use './layout/mainLayout';
+@use './layout/content';
+@use './pages/home';
+@use './components/navbar';
+@use './components/news';
+@use './components/events';
+@use './components/underline';
+@use './components/announcements';
