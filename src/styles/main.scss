@@ -4,6 +4,11 @@
 @use './layout/mainLayout';
 @use './layout/content';
 @use './pages/home';
+@use './pages/about';
+@use './pages/applicant';
+@use './pages/renforce';
+@use './pages/contact';
+@use './pages/faculties';
 @use './components/navbar';
 @use './components/news';
 @use './components/events';

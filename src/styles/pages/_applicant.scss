@@ -1,0 +1,39 @@
+.applicant {
+  padding: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .applicant__steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .ant-card {
+      background: #f9f9f9;
+      border-radius: 12px;
+    }
+  }
+
+  .applicant__info {
+    h2 {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      li {
+        list-style: disc;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    a {
+      color: #1890ff;
+    }
+  }
+}

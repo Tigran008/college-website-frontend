@@ -8,43 +8,31 @@ const { Meta } = Card;
 
 const announcementsData = [
     {
-        id: 1,
-        title: 'Վերնագիր 1',
-        description:
-            'Հարմարավետ կերպով նախաձեռնեք բազմաֆունկցիոնալ հարթակների:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+      id: 1,
+      title: 'Նոր համագործակցություն «Գիտության Նախաձեռնություն» հիմնադրամի հետ',
+      description: 'Ստորագրվեց հուշագիր՝ նպատակ ունենալով խթանել գիտահետազոտական նախագծերի իրականացումը դպրոցներում և բուհերում:',
+      image: 'https://cdn.infocom.am/enlarge?file=2022-11-10-079ecf0a-9ffb-4878-b9a1-a82727a1bfdc.jpg&type=jpeg&width=900&height=506',
     },
     {
-        id: 2,
-        title: 'Վերնագիր 2',
-        description: 'Արդյունավետ լուծումներ և նորարարական մոտեցումներ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+      id: 2,
+      title: 'Տեխնոլոգիական ճամբար՝ մարզերում',
+      description: 'Հաջորդ շաբաթ մեկնարկում է եռօրյա տեխնոլոգիական ճամբարը Լոռու մարզում՝ նախատեսված պատանիների համար:',
+      image: 'https://www.shantnews.am/wp-content/uploads/2024/01/414486364_709785271260443_6430920219875153739_n.jpg',
     },
     {
-        id: 3,
-        title: 'Վերնագիր 3',
-        description: 'Տեխնոլոգիական առաջընթացի ուղիներ և լուծումներ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+      id: 3,
+      title: 'Արհեստական բանականություն․ վարպետության դաս',
+      description: 'Մայիսի 15-ին անցկացվելու է բաց վարպետության դաս՝ նվիրված AI և մեքենայական ուսուցման կիրառմանը առողջապահության ոլորտում:',
+      image: 'https://fastnews.am/uploads/uploads/2021/05/artificial-intelligence-1024x512-1.jpeg',
     },
     {
-        id: 4,
-        title: 'Վերնագիր 4',
-        description: 'Կայունություն և առաջատար մոտեցումներ ծրագրավորման մեջ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+      id: 4,
+      title: 'Նոր թափուր աշխատատեղեր',
+      description: 'Մեր թիմը ընդլայնվում է։ Դիմեք մինչև հունիսի 10-ը՝ դիզայնի, ծրագրավորման և կրթական ղեկավարի հաստիքներին:',
+      image: 'https://armtimes.com/static/article/13/78/73/137873.jpg',
     },
-    {
-        id: 5,
-        title: 'Վերնագիր 5',
-        description: 'Նորարարություն և տեխնոլոգիական աճ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
-    },
-    {
-        id: 6,
-        title: 'Վերնագիր 6',
-        description: 'Տվյալների վերլուծություն և արհեստական բանականություն:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
-    },
-];
+  ];
+  
 
 const Announcements: React.FC = () => {
     const [cardsPerSlide, setCardsPerSlide] = useState(3);

@@ -5,7 +5,7 @@ import Faculties from '../pages/Faculties';
 import AboutUs from '../pages/AboutUs';
 import Contact from '../pages/Contact';
 import Applicant from '../pages/Applicant';
-import CollegeApp from '../pages/CollgeApp';
+import Renforce from '../pages/Renforce';
 
 export const router = createBrowserRouter([
     {
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
             { path: '/about', element: <AboutUs /> },
             { path: '/contact', element: <Contact /> },
             { path: '/applicant', element: <Applicant /> },
-            { path: '/college-app', element: <CollegeApp /> },
+            { path: '/renforce', element: <Renforce /> },
         ],
     },
 ]);

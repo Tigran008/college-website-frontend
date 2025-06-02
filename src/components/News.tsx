@@ -9,42 +9,34 @@ const { Meta } = Card;
 const newsData = [
     {
         id: 1,
-        title: 'Վերնագիր 1',
+        title: 'Հայաստանը ներկայացրեց նոր արհեստական բանականության ռազմավարություն',
         description:
-            'Հարմարավետ կերպով նախաձեռնեք բազմաֆունկցիոնալ հարթակների:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+            'ՀՀ կառավարությունը հայտարարեց նոր ազգային ռազմավարության մեկնարկը՝ ուղղված արհեստական բանականության զարգացմանը՝ կրթության, առողջապահության և պաշտպանական ոլորտներում կիրառման համար:',
+        image: 'https://iravaban.net/wp-content/uploads/2024/08/art-6-m.webp',
     },
     {
         id: 2,
-        title: 'Վերնագիր 2',
-        description: 'Արդյունավետ լուծումներ և նորարարական մոտեցումներ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+        title: 'Տեղեկատվական տեխնոլոգիաների համաժողովը կայացավ Երևանում',
+        description:
+            'Երևանում անցկացվեց ամենամյա DigiTech Expo համաժողովը՝ համախմբելով տասնյակ ստարտափներ, ներդրողներ և տեխնոլոգիական մասնագետներ՝ ամբողջ տարածաշրջանից:',
+        image: 'https://cdn.irazek.am/images/2018-04-10/7bd5dc67ca172f2d3f01dfdfe03d70e9.jpg',
     },
     {
         id: 3,
-        title: 'Վերնագիր 3',
-        description: 'Տեխնոլոգիական առաջընթացի ուղիներ և լուծումներ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+        title: 'Հայկական ստարտափը՝ համաշխարհային ներդրումային փուլում',
+        description:
+            '«SmartAgriTech» ստարտափը հավաքագրեց $3 մլն դոլար՝ կայուն գյուղատնտեսական տեխնոլոգիաներ զարգացնելու համար՝ կիրառելով IoT և AI:',
+        image: 'https://how2b.am/wp-content/uploads/sites/2/2024/12/cove-1068x558.jpg',
     },
     {
         id: 4,
-        title: 'Վերնագիր 4',
-        description: 'Կայունություն և առաջատար մոտեցումներ ծրագրավորման մեջ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
-    },
-    {
-        id: 5,
-        title: 'Վերնագիր 5',
-        description: 'Նորարարություն և տեխնոլոգիական աճ:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
-    },
-    {
-        id: 6,
-        title: 'Վերնագիր 6',
-        description: 'Տվյալների վերլուծություն և արհեստական բանականություն:',
-        image: 'https://s3-alpha-sig.figma.com/img/42d6/60b6/84608d7b546cd9e8e02e690dac8abdf0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=moO~2lMNCc6PAwjP8RxyhZjt3rnUl953Rhb0790VfMwJ1JFrNzOQHaMN6da4xWT8FfurU7m18iZxRjGJ-pPYnvu8BKMfVu95AykGfyzLqQMppPeVM68sh78Bdzsit1OnMIgA354nLypZ6jyA7kLMcHGkH5x97qQbi8Hxiwx1InUSZwnccQvTSRErCNKgyqX-AeTTMNy4d4qTlMKq3fgVjx6V9o2enILRRKizfQXK64Qrm~GSahcz2yTAYNaANQ7JyRdFk5sTCWwfPl1BaHnZMMaxDn-K4jvBFhJqchb~OdrOXsbl4v8kV~GGr04IY2eIgx7Cr2Zd7fnFrBX8ukeKzg__',
+        title: 'Տվյալների վերլուծության լաբորատորիա կբացվի ՏՏ համալսարանում',
+        description:
+            'Հայաստանի ՏՏ համալսարանը կհիմնի տվյալների գիտության և վերլուծության լաբորատորիա՝ ուսանողներին փորձառություն տրամադրելու իրական նախագծերի վրա:',
+        image: 'https://bdg.am/wp-content/uploads/2023/08/%D5%BF%D5%BE%D5%B5%D5%A1%D5%AC%D5%B6%D5%A5%D6%80%D5%AB-%D5%BE%D5%A5%D6%80%D5%AC%D5%B8%D6%82%D5%AE%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6-blog.jpg',
     },
 ];
+
 
 const News: React.FC = () => {
     const [cardsPerSlide, setCardsPerSlide] = useState(3);

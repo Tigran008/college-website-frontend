@@ -44,8 +44,8 @@ const items: MenuItem[] = [
         icon: <UserAddOutlined />,
     },
     {
-        label: <Link to="/college-app">Քոլեջի հավելված</Link>,
-        key: 'college-app',
+        label: <Link to="/renforce">REnForce</Link>,
+        key: 'renforce',
         icon: <MobileOutlined />,
     },
 ];
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
                         <Link to="/applicant">Դիմորդ</Link>
                     </li>
                     <li>
-                        <Link to="/college-app">Քոլեջի հավելված</Link>
+                        <Link to="/renforce">Քոլեջի հավելված</Link>
                     </li>
                 </ul>
             </motion.div>

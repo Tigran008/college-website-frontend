@@ -7,51 +7,47 @@ const { Title } = Typography;
 
 const events = [
     {
-        id: '1',
-        title: 'Tech Conference 2025',
-        date: '2025-04-15',
-        location: 'Yerevan, Armenia',
-        description:
-            'A gathering of the best minds in technology discussing the future of AI and Web Development.',
-        image: 'https://source.unsplash.com/600x400/?conference,tech',
+      id: '1',
+      title: 'CSIT 2025: Համակարգչային գիտություն և տեղեկատվական տեխնոլոգիաներ',
+      date: '2025-09-22',
+      location: 'Երևան, Հայաստան',
+      description:
+        'Միջազգային գիտաժողով, որը կազմակերպվում է Հայաստանի Հանրապետության Գիտությունների ազգային ակադեմիայի կողմից՝ նվիրված համակարգչային գիտության և տեղեկատվական տեխնոլոգիաների վերջին զարգացումներին։',
+      image: 'https://escs.am/files/images/2023-12-27/e833141b2e910883ecc4410b14d00fea.jpg',
+      link: 'https://csit.am/',
     },
     {
-        id: '2',
-        title: 'React Workshop',
-        date: '2025-05-10',
-        location: 'Online',
-        description:
-            'A hands-on workshop teaching React fundamentals, hooks, and state management.',
-        image: 'https://source.unsplash.com/600x400/?react,javascript',
+      id: '2',
+      title: 'React Conf 2025',
+      date: '2025-10-07',
+      location: 'Հենդերսոն, Նևադա, ԱՄՆ և առցանց',
+      description:
+        'React համայնքի ամենամյա համաժողովը, որտեղ ներկայացվում են React-ի նորությունները և զարգացումները։',
+      image: 'https://conf.react.dev/images/react-conf-2025.jpg',
+      link: 'https://conf.react.dev/',
     },
     {
-        id: '3',
-        title: 'Startup Pitch Night',
-        date: '2025-06-01',
-        location: 'TUMO Center, Yerevan',
-        description:
-            'A night where aspiring entrepreneurs pitch their ideas to investors.',
-        image: 'https://source.unsplash.com/600x400/?startup,pitch',
+      id: '3',
+      title: 'Sevan Startup Summit 2025',
+      date: '2025-07-15',
+      location: 'Սևան, Հայաստան',
+      description:
+        'Սևանի ափին անցկացվող ստարտափ միջոցառում, որը միավորում է ձեռնարկատերերին, ներդրողներին և տեխնոլոգիական համայնքի անդամներին։',
+      image: 'https://hightech.gov.am/images/sevan-summit-2025.jpg',
+      link: 'https://hightech.gov.am/en/tegekatvakan-kentron/ayl/norutyunner/sevan-starup-summit-2025',
     },
     {
-        id: '4',
-        title: 'AI & Machine Learning Summit',
-        date: '2025-07-20',
-        location: 'Silicon Valley, USA',
-        description:
-            "Experts discuss the latest advancements in AI and how it's shaping the world.",
-        image: 'https://source.unsplash.com/600x400/?ai,machinelearning',
+      id: '4',
+      title: 'Generative AI Summit Silicon Valley 2025',
+      date: '2025-04-29',
+      location: 'Սանտա Կլարա, Կալիֆոռնիա, ԱՄՆ',
+      description:
+        'Գեներատիվ արհեստական բանականության ոլորտի առաջատար համաժողով, որը միավորում է մասնագետներին և հետազոտողներին։',
+      image: 'https://world.aiacceleratorinstitute.com/images/generative-ai-summit-2025.jpg',
+      link: 'https://world.aiacceleratorinstitute.com/location/siliconvalley/',
     },
-    {
-        id: '5',
-        title: 'Frontend Dev Meetup',
-        date: '2025-08-12',
-        location: 'Berlin, Germany',
-        description:
-            'A meetup for frontend developers to network and share their latest projects.',
-        image: 'https://source.unsplash.com/600x400/?frontend,developer',
-    },
-];
+  ];
+  
 
 const Events: React.FC = () => {
     const [currentEvent, setCurrentEvent] = useState({
@@ -92,7 +88,7 @@ const Events: React.FC = () => {
                     cover={
                         <img
                             alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                            src="https://mapio.net/images-p/26296139.jpg"
                         />
                     }
                     actions={[
