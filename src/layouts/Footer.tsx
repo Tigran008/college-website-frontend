@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                 <div className="info-section">
                     <div>
                         <div className="logo">
-                            <img src="/src/images/Logo.png" alt="logo" />
+                            <img src="/images/Logo.png" alt="logo" />
                         </div>
                     </div>
                     <div>

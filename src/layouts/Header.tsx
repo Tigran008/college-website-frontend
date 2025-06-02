@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                     <p>English</p>
                 </div>
                 <div className="logo">
-                    <img src="src/images/Logo.png" alt="Logo" />
+                    <img src="/images/Logo.png" alt="Logo" />
                 </div>
                 <div className="socialMediaIcons">
                     <FacebookOutlined />

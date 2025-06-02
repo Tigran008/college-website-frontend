@@ -10,14 +10,14 @@ const Home:React.FC = () => {
   return (
     <div className='home-page'>
       <div className="home-page-image">
-        <img src="/src/images/bannerImage.png" alt="background" />
+        <img src="/images/bannerImage.png" alt="background" />
       </div>
 
       <div className="home-page-hero">
         <div className="home-page-hero-text">
           <Title level={1}>Բարի գալուստ Պոլիտեխնիկական քոլեջի պաշտոնական կայք</Title>
           <Text>Այստեղ Դուք կարող եք ստանալ ընդգրկուն և լիարժեք տեղեկատվություն քոլեջի կառուցվածքի և գործունեության մասին</Text><br />
-          <img src="/src/images/line.jpg" alt="image" />
+          <img src="/images/line.jpg" alt="image" />
         </div>
       </div>
 

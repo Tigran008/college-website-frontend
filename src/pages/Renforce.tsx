@@ -26,7 +26,7 @@ const Renforce: React.FC = () => {
           </Button>
         </div>
         <div className="hero-image">
-          <img src="src/assets/Renforce.png" alt="Renforce Cover" />
+          <img src="/images/Renforce.png" alt="Renforce Cover" />
         </div>
       </div>
 
